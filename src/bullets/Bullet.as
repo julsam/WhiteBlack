@@ -20,7 +20,7 @@ package bullets
 		{
 			y -= FP.elapsed * GC.BULLET_SPEED;
 			
-			if(y < -height) 
+			if(y < -height && this.world != null) 
 				this.world.remove(this);
 				
 			super.update();

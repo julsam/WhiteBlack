@@ -43,6 +43,7 @@ package worlds
 			
 			if(this.classCount(Player) == 0 && this.typeCount(GC.TYPE_ENEMY) == 0)
 			{
+				player = new Player((FP.screen.width/2) - 6, 280);
 				add(player);
 				GV.Score = 0;
 			}
