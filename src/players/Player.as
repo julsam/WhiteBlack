@@ -71,7 +71,6 @@ package players
 			else
 			{
 				// The player is currently black.
-				Image(this.graphic).color = 0xffffff;
 				g.color = 0xffffff;
 				explosionEmitter.setColor("explode", 0xffffff, 0xffffff);
 				currentBullet = WhiteBullet;

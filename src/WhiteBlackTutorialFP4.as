@@ -21,8 +21,7 @@ package
 		}
 		
 		override public function init():void 
-		{ 
-			trace("FlashPunk has started successfully!");
+		{
 			FP.world = new TitleWorld();
 			super.init();
 		} 
